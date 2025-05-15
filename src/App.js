@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
 const App = () => {
-  const [hourlyRate, setHourlyRate] = useState("154.70");
-  const [hoursWorked, setHoursWorked] = useState("151");
-  const [lossPremium, setLossPremium] = useState("424.29");
+  const [hourlyRate, setHourlyRate] = useState("");
+  const [hoursWorked, setHoursWorked] = useState("");
+  const [lossPremium, setLossPremium] = useState("");
   const [results, setResults] = useState(null);
   const [isCalculating, setIsCalculating] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
